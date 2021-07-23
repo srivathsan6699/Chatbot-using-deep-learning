@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m suresh, your bot assistant", "I'm suresh, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me suresh.", "I'm suresh", "Just call me as suresh"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "covid",
+    "patterns": ["what is covid", "is covid19 deadly?", "what is coronavirus?", "what is china virus","covid","covid19","corona"],
+    "responses": ["COVID-19 is a disease caused by a new strain of coronavirus CO stands for corona VI for virus and D for disease Formerly this disease was referred to as 2019 novel coronavirus or 2019-nCoV"]
+    },
+    {"tag": "symptoms",
+    "patterns": ["symptoms", "symptoms of covid", "symptoms of covid19","symptoms of coronavirus","what are the symptoms"],
+    "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and\ndry cough. Some patients may have aches and pains, nasal\ncongestion, runny nose, sore throat or diarrhea. These symptoms are\nusually mild and begin gradually. Some people become infected but\ndon’t develop any symptoms and don't feel unwell. Most people (about\n80%) recover from the disease without needing special treatment.\nAround 1 out of every 6 people who gets COVID-19 becomes seriously\nill and develops difficulty breathing. Older people, and those with\nunderlying medical problems like high blood pressure, heart problems\nor diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."]
+    },
+    {"tag": "spread",
+    "patterns": ["how does covid spread", "covid spread", "covid"],
+    "responses": ["People can catch COVID-19 from others who have the virus. The\ndisease can spread from person to person through small droplets from\nthe nose or mouth which are spread when a person with COVID-19\ncoughs or exhales. These droplets land on objects and surfaces around\nthe person. Other people then catch COVID-19 by touching these\nobjects or surfaces, then touching their eyes, nose or mouth. People\ncan also catch COVID-19 if they breathe in droplets from a person\nwith COVID-19 who coughs out or exhales droplets. This is why it is\nimportant to stay more than 1 meter (3 feet) away from a person\nwho is sick"]
+    },
+    {"tag" : "transmit",
+    "patterns":["how does it transmit","transmit","how does covid transmit"],
+    "responses":["Studies to date suggest that the virus that causes COVID-19 is mainly\ntransmitted through contact with respiratory droplets rather than\nthrough the air"]
+    }
+]
+}
